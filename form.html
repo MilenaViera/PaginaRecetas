@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Publica tu receta</title>
+    <link rel="stylesheet" href="estilo.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Faustina:ital@1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <header>
+            <div class="logo">
+                <img src="images/logo_size_invert.jpg" alt="logo">
+            </div>
+
+            <h1>Recetas desayunos y meriendas ✨</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#contactos">Contacto</a></li>
+                    <li><a href="form.html">Publica tu receta</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <div class="totalIngredientes">
+                <h2>Ingredientes</h2>
+                <form action="form-result.php" method="POST" target="_self">
+                    <label for="ingrediente1">ingrediente 1: </label> <input type="text" name="ingrediente1"> <br><br>
+                    <label for="ingrediente2">ingrediente 2: </label> <input type="text" name="ingrediente2"> <br><br>
+                    <label for="ingrediente3">ingrediente 3: </label> <input type="text" name="ingrediente3"> <br><br>
+                    <label for="ingrediente4">ingrediente 4: </label> <input type="text" name="ingrediente4"> <br><br>
+                </form>
+            </div>
+            <div class="pasos">
+                <form action="form-result.php" method="POST" target="_self">
+                    <h2>Agregue los paso a paso</h2>
+                    <textarea name="paso" rows="10" cols="30">...</textarea>
+                    <br><br>
+                    <h3>Enviar receta</h3>
+                    <label for="Si"> Si </label> <input type="checkbox" name="Si">
+                    <input type="submit">
+                </form>
+            </div>
+        </section>
+        <footer>
+            <div class="contactos">
+                <h2>Nuestras redes sociales</h2>
+            </div>
+            <div class="abuelo">
+                <div class="logo2">
+                    <img src="images/logo_size_invert.jpg" alt="logo">
+                </div>
+                <div class="redes">
+                    <img src="images/instagram.png" alt="instagram">
+                    <img src="images/facebook.png" alt="facebook">
+                </div>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
