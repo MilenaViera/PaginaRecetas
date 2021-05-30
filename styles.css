@@ -127,12 +127,3 @@ footer{
 
 }
 
-a:visited {
-    background-color: rgb(246, 7, 146);
-    padding: 2px
-  }
-
-a:hover {
-    background-color: rgb(255, 142, 212);
-    padding: 2px
-  }
